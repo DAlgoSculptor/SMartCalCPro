@@ -135,8 +135,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For any questions or suggestions, please feel free to reach out:
 
-- Email: your.email@example.com
-- GitHub: [@yourusername](https://github.com/yourusername)
+- Email: danishnawaz345678@gmail.com 
+- GitHub: [@DAlgoSculptor](https://github.com/DAlgoSculptor)
 
 ---
 
