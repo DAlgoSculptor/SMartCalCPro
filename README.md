@@ -1,6 +1,8 @@
 # SmartCalcPro - Advanced Calculator Application
 
-![SmartCalcPro Logo](app/src/main/res/mipmap-xxxhdpi/ic_launcher.png)
+<div align="center">
+  <img src="docs/images/logo.png" alt="SmartCalcPro Logo" width="200"/>
+</div>
 
 SmartCalcPro is a modern, feature-rich calculator application for Android that combines basic arithmetic operations with advanced scientific calculations. The app features a clean, intuitive interface with support for both light and dark themes.
 
@@ -30,8 +32,16 @@ SmartCalcPro is a modern, feature-rich calculator application for Android that c
 
 ## Screenshots
 
-![Basic Calculator Mode](screenshots/basic_mode.png)
-![Scientific Calculator Mode](screenshots/scientific_mode.png)
+<div align="center">
+  <img src="docs/images/basic_mode.png" alt="Basic Calculator Mode" width="300"/>
+  <img src="docs/images/scientific_mode.png" alt="Scientific Calculator Mode" width="300"/>
+</div>
+
+> **Note**: To add screenshots:
+> 1. Take screenshots of your app in both basic and scientific modes
+> 2. Save them as PNG files in the `docs/images` directory
+> 3. Name them `basic_mode.png` and `scientific_mode.png`
+> 4. For the logo, save your app icon as `logo.png` in the same directory
 
 ## Getting Started
 
@@ -93,6 +103,11 @@ SmartCalcPro/
 │   │   │       └── values-night/
 │   │   │           └── colors.xml
 │   └── build.gradle
+├── docs/
+│   └── images/
+│       ├── logo.png
+│       ├── basic_mode.png
+│       └── scientific_mode.png
 └── build.gradle
 ```
 
