@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_calculator">
+
+    <fragment
+        android:id="@+id/navigation_calculator"
+        android:name="com.example.smartcalcpro.CalculatorFragment"
+        android:label="Calculator"
+        tools:layout="@layout/fragment_calculator" />
+
+    <fragment
+        android:id="@+id/navigation_converter"
+        android:name="com.example.smartcalcpro.ConvertersFragment"
+        android:label="Converters"
+        tools:layout="@layout/fragment_converters" />
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.example.smartcalcpro.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings" />
+
+</navigation> 

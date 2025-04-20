@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_glass">#121212</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#B3FFFFFF</color>
+    <!-- Calculator Colors for Dark Theme -->
+    <color name="calculator_accent">#FF7043</color>
+</resources> 

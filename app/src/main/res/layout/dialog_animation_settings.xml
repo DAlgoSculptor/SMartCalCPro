@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Animation Settings"
+        android:textAppearance="?attr/textAppearanceHeadline6"
+        android:layout_marginBottom="16dp"/>
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/switchAnimationsEnabled"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enable Animations"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Animation Speed"
+        android:layout_marginBottom="8dp"/>
+
+    <com.google.android.material.slider.Slider
+        android:id="@+id/sliderAnimationSpeed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:valueFrom="0.5"
+        android:valueTo="2"
+        android:stepSize="0.1"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Animation Style"
+        android:layout_marginBottom="8dp"/>
+
+    <RadioGroup
+        android:id="@+id/animationStyleGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="16dp">
+
+        <RadioButton
+            android:id="@+id/radioDefaultAnimation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Default"
+            android:layout_marginBottom="4dp"/>
+
+        <RadioButton
+            android:id="@+id/radioBounceAnimation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bounce"
+            android:layout_marginBottom="4dp"/>
+
+        <RadioButton
+            android:id="@+id/radioFadeAnimation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fade"
+            android:layout_marginBottom="4dp"/>
+
+        <RadioButton
+            android:id="@+id/radioSlideAnimation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Slide"/>
+
+    </RadioGroup>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnApplyAnimations"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Apply"
+        style="@style/Widget.Material3.Button"/>
+
+</LinearLayout> 

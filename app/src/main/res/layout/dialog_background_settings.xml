@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Background Settings"
+        android:textAppearance="?attr/textAppearanceHeadline6"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Background Type"
+        android:textAppearance="?attr/textAppearanceBody1"
+        android:layout_marginBottom="8dp"/>
+
+    <RadioGroup
+        android:id="@+id/backgroundTypeGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="16dp">
+
+        <com.google.android.material.radiobutton.MaterialRadioButton
+            android:id="@+id/radioSolidColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Solid Color"
+            android:layout_marginBottom="8dp"/>
+
+        <com.google.android.material.radiobutton.MaterialRadioButton
+            android:id="@+id/radioGradient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gradient"
+            android:layout_marginBottom="8dp"/>
+
+        <com.google.android.material.radiobutton.MaterialRadioButton
+            android:id="@+id/radioImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Custom Image"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textColorPicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Background Color"
+        android:textAppearance="?attr/textAppearanceBody1"
+        android:layout_marginBottom="8dp"
+        android:visibility="gone"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnPickColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pick Color"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_marginBottom="16dp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/textGradientType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gradient Type"
+        android:textAppearance="?attr/textAppearanceBody1"
+        android:layout_marginBottom="8dp"
+        android:visibility="gone"/>
+
+    <RadioGroup
+        android:id="@+id/gradientTypeGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="16dp"
+        android:visibility="gone">
+
+        <com.google.android.material.radiobutton.MaterialRadioButton
+            android:id="@+id/radioLinearGradient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Linear"
+            android:layout_marginBottom="8dp"/>
+
+        <com.google.android.material.radiobutton.MaterialRadioButton
+            android:id="@+id/radioRadialGradient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Radial"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textImageSource"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Image Source"
+        android:textAppearance="?attr/textAppearanceBody1"
+        android:layout_marginBottom="8dp"
+        android:visibility="gone"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnPickImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pick Image"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_marginBottom="16dp"
+        android:visibility="gone"/>
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/switchBackgroundEnabled"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enable Custom Background"
+        android:layout_marginBottom="16dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnApplyBackground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Apply"
+        style="@style/Widget.Material3.Button"/>
+
+</LinearLayout> 
