@@ -1,7 +1,7 @@
 # SmartCalcPro - Advanced Calculator Application
 
 <div align="center">
-  <img src="docs/images/logo.png" alt="SmartCalcPro Logo" width="200"/>
+  <img src="docs/images/D:\SmartCalcPro\docs\images\WhatsApp Image 2025-04-21 at 04.05.51_4ec22e1c.jpg" alt="SmartCalcPro Logo" width="200"/>
 </div>
 
 SmartCalcPro is a modern, feature-rich calculator application for Android that combines basic arithmetic operations with advanced scientific calculations. The app features a clean, intuitive interface with support for both light and dark themes.
@@ -33,8 +33,8 @@ SmartCalcPro is a modern, feature-rich calculator application for Android that c
 ## Screenshots
 
 <div align="center">
-  <img src="docs/images/basic_mode.png" alt="Basic Calculator Mode" width="300"/>
-  <img src="docs/images/scientific_mode.png" alt="Scientific Calculator Mode" width="300"/>
+  <img src="docs/images/D:\SmartCalcPro\docs\images\WhatsApp Image 2025-04-21 at 04.05.52_6c0ab38f.jpg" alt="Basic Calculator Mode" width="300"/>
+  <img src="docs/images/D:\SmartCalcPro\docs\images\WhatsApp Image 2025-04-21 at 04.05.52_7bd11b10.jpg" alt="Scientific Calculator Mode" width="300"/>
 </div>
 
 > **Note**: To add screenshots:
@@ -155,4 +155,4 @@ For any questions or suggestions, please feel free to reach out:
 
 ---
 
-Made with ❤️ by [Your Name] 
+Made with ❤️ by [Danish Nawaz] 
